@@ -1,0 +1,91 @@
+body{
+    background-image: url(images/calvarybg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    backdrop-filter: brightness(60%);
+    min-height: 100vh;
+    color: #fff;
+}
+.navicon{
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.navbar {
+    background-color:rgba(12, 59, 105, 0.4) !important;
+}
+.nav-link {
+    color: #ffffff; 
+}
+.nav-link:hover {
+    text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.6);
+    transform: scale(1.1);
+}
+
+.church{
+    background-color:rgba(12, 59, 105, 0.4) ;
+}
+.greeting{
+    background-color:rgba(12, 59, 105, 0.4)  ;
+}
+.ministries-section{
+    background-color:rgba(12, 59, 105, 0.4)  ;
+}
+.Ministries{
+    background-color:rgba(12, 59, 105, 0.7);
+}
+
+.footer-container {
+    background-color: rgba(0, 0, 50, 0.6);
+    color: white;
+    padding: 20px 50px;
+}
+
+.footer-image {
+    border-radius: 50%;
+    width: 200px; /* Adjusted for smaller devices */
+    height: 200px;
+    object-fit: cover;
+}
+
+.footer-details h2 {
+    font-size: 22px; /* Smaller size for responsiveness */
+    font-weight: bold;
+    margin-bottom: 10px;
+    letter-spacing: 1.2px;
+}
+
+.footer-details hr {
+    width: 40px;
+    border: 1px solid #ffffff;
+    margin: 10px auto;
+}
+
+.footer-details img {
+    margin: 5px 0;
+    align-self: center;
+}
+
+.footer-details address,
+.footer-details p {
+    font-size: 16px; /* Smaller font size for mobile */
+    font-weight: 300;
+    line-height: 1.4;
+    margin: 10px 0;
+}
+
+.footer-details pre {
+    display: inline-block;
+    font-size: medium;
+}
+
+.footer-details p a {
+    color: white;
+    text-decoration: underline;
+}
+
+.footer-details p a:hover {
+    color: #ffcc00;
+}
